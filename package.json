@@ -1,0 +1,32 @@
+{
+  "name": "graphql-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t2b-demo/graphql-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t2b-demo/graphql-demo/issues"
+  },
+  "homepage": "https://github.com/t2b-demo/graphql-demo#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "graphql-yoga": "^1.16.6",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.4",
+    "nodemon": "^1.18.4"
+  }
+}
